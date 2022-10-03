@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Marco Falcone</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
+  <link rel="manifest" href="static/favicons/site.webmanifest">
+  <link rel="mask-icon" href="static/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link type="text/css" rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+  <div class="loaderWrap">
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="wrap" style="display: none">
+    <!--wrap device sections-->
+
+    <div class="background"></div>
+
+    <div class="socials">
+      <a href="https://github.com/MarcoFalcone" target="_blank"><i class="fab fa-github"></i></a>
+
+      <a href="https://www.linkedin.com/in/marco-falcone-122938a7/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <h1 class="my_name">Marco Falcone</h1>
+
+    <div class="about">
+      <h2>About</h2>
+      <div class="abouttxt">
+        <p>
+          <span class="span"><</span><span class="bio">Hello there!
+            I'm a self-taught web developer with a great eagerness to learn and stubbornly curious.
+            Feel free to check out my works, follow the github page for a more detailed description of the project or click on the page link to see the live site. Whether you'd like to have a chat or discuss a project please don't hesitate to send me an email.
+            Thanks for stopping by.
+          </span>
+          <span class="span">/></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="works">
+      <h2>Works</h2>
+      <div class="workscont">
+        <div class="crosses">
+          <div class="cross" onclick="currentSlide(1)"></div>
+          <div class="cross" onclick="currentSlide(2)"></div>
+        </div>
+        <div class="slideshow">
+
+          <div class="work 1">
+            <p>React Movie App - built with React.js<a class="codelink" href="https://github.com/MarcoFalcone/React-movie-app" target="_blank">github</a><a class="pagelink"
+                href="https://marcofalcone.github.io/test.github.io/Movieapp/index.html" target="_blank">page</a></p>
+            <img class="preview" src="https://ik.imagekit.io/7ol7k87qcca/Portfo/Desktop_Screenshot_2021.03.02_-_15.42.28.64_ZO_JFJJUv.png"></img>
+          </div>
+
+          <div class="work 2">
+            <p>Location Finder - React app connected to the Google Maps API<a class="codelink" href="https://github.com/MarcoFalcone/Roman-McDonalds" target="_blank">github</a></p>
+            <img class="preview" src="https://ik.imagekit.io/7ol7k87qcca/Portfo/mc_c3BEO8NUbfLX.jpg"></img>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <div class="cont">
+        <p>Get in touch</p>
+        <a class="mail" href="mailto:mfalcone.dev@gmail.com"><span>>>></span> mfalcone.dev@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="lineleft"></div>
+    <div class="lineright"></div>
+    <div class="linebottom"></div>
+    <div class="lineup"></div>
+
+    <p class="copy"><span>&copy;</span> 2021</p>
+
+    <!--mobile and tablet-->
+
+    <div class="homedevicecont" id="homedevicecont">
+      <a class="aboutdevice" href="#aboutdevicecont">About</a>
+      <a class="worksdevice" href="#workdevicecont">Works</a>
+      <a class="contactdevice" href="#contactdevicecont">Contact</a>
+      <div class="stop"></div>
+    </div>
+
+    <div class="aboutdevicecont" id="aboutdevicecont">
+      <div class="abouttxtdevice">
+        <p>
+          <span class="span"><</span><span class="bio">Hello there!
+            I'm a self-taught web developer with a great eagerness to learn and stubbornly curious.
+            Feel free to check out my works, follow the github page for a more detailed description of the project or click on the page link to see the live site. Whether you'd like to have a chat or discuss a project please don't hesitate to send me an email.
+            Thanks for stopping by.
+          </span>
+          <span class="span">/></span>
+        </p>
+      </div>
+      <div class="stop"></div>
+    </div>
+
+    <div class="workdevicecont" id="workdevicecont">
+
+      <div class="workdevice 3">
+        <p>React Movie App - built with React.js<a href="https://github.com/MarcoFalcone/React-movie-app" target="_blank">github</a><a
+            href="https://marcofalcone.github.io/test.github.io/Movieapp/index.html" target="_blank">page</a></p>
+        <img class="preview" src="https://ik.imagekit.io/7ol7k87qcca/Portfo/Desktop_Screenshot_2021.03.02_-_15.42.28.64_ZO_JFJJUv.png"></img>
+      </div>
+
+      <div class="workdevice 4">
+        <p>Location Finder - React app connected to the Google Maps API<a href="https://github.com/MarcoFalcone/Roman-McDonalds" target="_blank">github</a></p>
+        <img class="preview" src="https://ik.imagekit.io/7ol7k87qcca/Portfo/mc_c3BEO8NUbfLX.jpg"></img>
+      </div>
+
+    <div class="contactdevicecont" id="contactdevicecont">
+      <div class="wrapmail">
+        <p>Get in touch</p>
+        <a class="maildevice" href="mailto:mfalcone.dev@gmail.com">mfalcone.dev@gmail.com</a>
+      </div>
+      <a class="backhome" href="#homedevicecont">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2021 | Marco Falcone</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="static/main.js"></script>
+</body>
+
+</html>
