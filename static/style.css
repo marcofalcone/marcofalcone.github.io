@@ -552,7 +552,7 @@ html, body {
 .copy {
   position: absolute;
   left: 10%;
-  top: 45.5%;
+  top: 44.5%;
   opacity: 0;
   color: silver;
   -webkit-animation: fadein 1s ease-out 2s forwards;
