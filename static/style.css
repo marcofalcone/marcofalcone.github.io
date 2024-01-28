@@ -343,6 +343,30 @@ html, body {
   opacity: 1;
 }
 
+.aboutMelink {
+  position: absolute;
+  left: 30vw;
+  top: 15vh;
+  width: 30vw;
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: silver;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.aboutMelinkDevice {
+  text-decoration: none;
+  font-size: 24px;
+  color: mediumvioletred;
+}
+
+.aboutMelink:hover {
+  color: mediumvioletred;
+}
+
 .works {
   color: silver;
   font-family: 'Montserrat', sans-serif;
@@ -469,9 +493,9 @@ html, body {
 
 .codelink,
 .pagelink {
-  text-decoration: none;
+  text-decoration: none !important;
   color: mediumvioletred;
-  font-size: 1.1vw;
+  font-size: 21px;
   margin-left: 20px;
 }
 
@@ -509,7 +533,6 @@ html, body {
   text-decoration: none;
   font-size: 1.1vw;
   color: silver;
-  font-style: italic;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -609,6 +632,7 @@ html, body {
   position: relative;
   display: none;
   height: auto;
+  margin-top: 60px;
 }
 
 .workdevicecont {
